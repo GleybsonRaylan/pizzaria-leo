@@ -52,7 +52,7 @@ export const products: Product[] = [
     description: "Molho de tomate, mussarela, tomate, azeitonas e orégano",
     price: 25,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-mussarela.jpg",
+    image: "/assets/pizza-salgada/pizza-mussarela.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 25, maxFlavors: 2 },
@@ -69,7 +69,7 @@ export const products: Product[] = [
       "Molho de tomate, mussarela, parmesão, provolone, tomate e orégano",
     price: 25,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-napolitana.jpg",
+    image: "/assets/pizza-salgada/pizza-napolitana.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 25, maxFlavors: 2 },
@@ -86,7 +86,7 @@ export const products: Product[] = [
       "Molho de tomate, mussarela, parmesão, tomate, manjericão e orégano",
     price: 25,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-marguerita.jpg",
+    image: "/assets/pizza-salgada/pizza-marguerita.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 25, maxFlavors: 2 },
@@ -103,7 +103,7 @@ export const products: Product[] = [
       "Molho de tomate, mussarela, queijo coalho, cheddar, catupiry e orégano",
     price: 25,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-4-queijo.jpg",
+    image: "/assets/pizza-salgada/pizza-4-queijo.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 25, maxFlavors: 2 },
@@ -119,7 +119,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, queijo coalho e orégano",
     price: 27,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-queijo-qualho.jpg",
+    image: "/assets/pizza-salgada/pizza-queijo-qualho.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 27, maxFlavors: 2 },
@@ -135,7 +135,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, calabresa, cebola, azeitonas e orégano",
     price: 25,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-calabresa.jpeg",
+    image: "/assets/pizza-salgada/pizza-calabresa.jpeg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 25, maxFlavors: 2 },
@@ -151,7 +151,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, calabresa, cebola e orégano",
     price: 25,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-calabresa-acebolada.jpg",
+    image: "/assets/pizza-salgada/pizza-calabresa-acebolada.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 25, maxFlavors: 2 },
@@ -167,7 +167,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, calabresa, cream cheese e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-calabresa-cc.jpg",
+    image: "/assets/pizza-salgada/pizza-calabresa-cc.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -217,7 +217,7 @@ export const products: Product[] = [
       "Molho, mussarela, frango fricassé, milho verde, batata palha e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-fricasse.png",
+    image: "/assets/pizza-salgada/pizza-fricasse.png",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },

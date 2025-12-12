@@ -12,7 +12,6 @@ import Produto from "./pages/Produto";
 import Carrinho from "./pages/Carrinho";
 import Finalizacao from "./pages/Finalizacao";
 import Contato from "./pages/Contato";
-import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -33,7 +32,6 @@ const App = () => (
                 <Route path="/carrinho" element={<Carrinho />} />
                 <Route path="/finalizacao" element={<Finalizacao />} />
                 <Route path="/contato" element={<Contato />} />
-                <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
             <BottomNav />
