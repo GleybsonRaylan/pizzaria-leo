@@ -183,7 +183,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, frango e orégano",
     price: 25,
     category: "pizzas-salgadas",
-    image: "src/assets/pizza-salgada/pizza-frango.jpg",
+    image: "/assets/pizza-salgada/pizza-frango-.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 25, maxFlavors: 2 },
@@ -200,7 +200,7 @@ export const products: Product[] = [
       "Molho, mussarela, frango, bacon, calabresa, cheddar, catupiry e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-frango-es.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -233,7 +233,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, frango, calabresa, bacon e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-frango-bc.png",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -248,7 +248,7 @@ export const products: Product[] = [
     name: "Moda da Casa",
     description: "Molho, mussarela, calabresa, frango, presunto e orégano",
     price: 25,
-    category: "pizzas-salgadas",
+    category: "/assets/pizza-salgada/pizza-moda.jpeg",
     image: "/placeholder.svg",
     isPizza: true,
     sizes: [
@@ -264,7 +264,7 @@ export const products: Product[] = [
     name: "Bacon com Cheddar",
     description: "Molho de tomate, mussarela, bacon, cheddar e orégano",
     price: 30,
-    category: "pizzas-salgadas",
+    category: "/assets/pizza-salgada/pizza-bacon.jpg",
     image: "/placeholder.svg",
     isPizza: true,
     sizes: [
@@ -281,7 +281,7 @@ export const products: Product[] = [
     description: "Molho de tomate, mussarela, carne moída e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-carne.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -297,7 +297,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, carne de sol e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-carne-sol.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -314,7 +314,7 @@ export const products: Product[] = [
       "Molho, mussarela, carne de sol, creme de alho, cebola e orégano",
     price: 32,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-carne-cre.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 32, maxFlavors: 2 },
@@ -330,7 +330,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, charque, cebola e orégano",
     price: 32,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-nordestina.png",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 32, maxFlavors: 2 },
@@ -346,7 +346,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, camarão e orégano",
     price: 32,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-camarao.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 32, maxFlavors: 2 },
@@ -362,7 +362,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, queijo do reino e camarão",
     price: 35,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-camarao-cre.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 35, maxFlavors: 2 },
@@ -378,7 +378,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, atum, cebola, azeitona e orégano",
     price: 32,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-atum.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 32, maxFlavors: 2 },
@@ -394,7 +394,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, lombo canadense e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-lombo.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -410,7 +410,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, queijo do reino, azeitona e orégano",
     price: 32,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-reino.webp",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 32, maxFlavors: 2 },
@@ -426,7 +426,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, pepperoni, azeitonas e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-pepperoni.webp",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -442,7 +442,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, carne moída, tomate, doritos e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-mexica.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -458,7 +458,7 @@ export const products: Product[] = [
     description: "Molho, mussarela, provolone, gorgonzola, parmesão e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-queijo-espe.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -475,7 +475,7 @@ export const products: Product[] = [
       "Molho de tomate, mussarela, frango empanado, queijo parmesão e orégano",
     price: 30,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-parmegiana.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 30, maxFlavors: 2 },
@@ -492,7 +492,7 @@ export const products: Product[] = [
       "Molho de tomate, mussarela, filé mignon, molho madeira e orégano",
     price: 35,
     category: "pizzas-salgadas",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-salgada/pizza-file.jpg",
     isPizza: true,
     sizes: [
       { size: "P", slices: 4, price: 35, maxFlavors: 2 },
@@ -510,7 +510,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite e chocolate preto",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-chocolate.webp",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -527,7 +527,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite e chocolate branco",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-branco.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -545,7 +545,7 @@ export const products: Product[] = [
       "Mussarela, creme de leite, chocolate preto e chocolate branco",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-casado.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -563,7 +563,7 @@ export const products: Product[] = [
       "Mussarela, creme de leite, chocolate preto, brigadeiro e granulado",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-brigadeiro.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -580,7 +580,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite, banana, canela e chocolate em pó",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-cartola.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -597,7 +597,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite, chocolate preto e Sonho de Valsa",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-sonho.jpeg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -614,7 +614,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite, chocolate preto e Oreo",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-pacoca.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -631,7 +631,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite e paçoca",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-pacoca.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -648,7 +648,7 @@ export const products: Product[] = [
     description: "Mussarela, goiabada e queijo coalho",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-romeuj.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -665,7 +665,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite, chocolate preto e coco ralado",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-prestigio.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -683,7 +683,7 @@ export const products: Product[] = [
       "Mussarela, creme de leite, chocolate preto, morango e leite condensado",
     price: 32,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-sensacao.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -700,7 +700,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite, doce de leite e coco ralado",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-doce-leite.webp",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -717,7 +717,7 @@ export const products: Product[] = [
     description: "Mussarela, creme de leite, chocolate preto e M&M's",
     price: 30,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-mem.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -735,7 +735,7 @@ export const products: Product[] = [
       "Mussarela, creme de leite, chocolate, biz, chocolate em barra e M&M",
     price: 32,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-chocolate-esp.jpeg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -753,7 +753,7 @@ export const products: Product[] = [
       "Mussarela, banana, chocolate branco, cream cheese e canela em pó",
     price: 32,
     category: "pizzas-doces",
-    image: "/placeholder.svg",
+    image: "/assets/pizza-doce/pizza-banana.jpg",
     isPizza: true,
     isSweet: true,
     sizes: [
@@ -772,7 +772,7 @@ export const products: Product[] = [
     description: "Deliciosa esfiha de 4 queijos",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-mussarela",
@@ -780,7 +780,7 @@ export const products: Product[] = [
     description: "Esfiha de mussarela",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-presunto",
@@ -788,7 +788,7 @@ export const products: Product[] = [
     description: "Esfiha de presunto",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-carne-moida",
@@ -796,7 +796,7 @@ export const products: Product[] = [
     description: "Esfiha de carne moída",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-frango",
@@ -804,7 +804,7 @@ export const products: Product[] = [
     description: "Esfiha de frango",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-calabresa",
@@ -812,7 +812,7 @@ export const products: Product[] = [
     description: "Esfiha de calabresa",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-picante",
@@ -820,7 +820,7 @@ export const products: Product[] = [
     description: "Esfiha picante",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-moda-casa",
@@ -828,7 +828,7 @@ export const products: Product[] = [
     description: "Esfiha especial da casa",
     price: 5,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-carne-sol",
@@ -836,7 +836,7 @@ export const products: Product[] = [
     description: "Esfiha de carne de sol",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-queijo-reino",
@@ -844,7 +844,7 @@ export const products: Product[] = [
     description: "Esfiha de queijo do reino",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-nordestina",
@@ -852,7 +852,7 @@ export const products: Product[] = [
     description: "Esfiha nordestina",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   {
     id: "esfiha-camarao",
@@ -860,7 +860,7 @@ export const products: Product[] = [
     description: "Esfiha de camarão",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/esfiha.jpeg",
   },
   // ESFIHAS DOCES
   {
@@ -869,7 +869,7 @@ export const products: Product[] = [
     description: "Esfiha de chocolate branco",
     price: 7,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/doce.jpg",
   },
   {
     id: "esfiha-chocolate-preto",
@@ -877,7 +877,7 @@ export const products: Product[] = [
     description: "Esfiha de chocolate preto",
     price: 7,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/doce.jpg",
   },
   {
     id: "esfiha-sensacao",
@@ -885,7 +885,7 @@ export const products: Product[] = [
     description: "Esfiha sensação",
     price: 7,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/doce.jpg",
   },
   {
     id: "esfiha-mm",
@@ -893,7 +893,7 @@ export const products: Product[] = [
     description: "Esfiha de M&M's",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/doce.jpg",
   },
   {
     id: "esfiha-bem-casado",
@@ -901,7 +901,7 @@ export const products: Product[] = [
     description: "Esfiha bem casado",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/doce.jpg",
   },
   {
     id: "esfiha-chocolate-especial",
@@ -909,7 +909,7 @@ export const products: Product[] = [
     description: "Esfiha chocolate especial",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/doce.jpg",
   },
   {
     id: "esfiha-banana-nevada",
@@ -917,7 +917,7 @@ export const products: Product[] = [
     description: "Esfiha banana nevada",
     price: 8,
     category: "esfihas",
-    image: "/placeholder.svg",
+    image: "/assets/esfirra/doce.jpg",
   },
 
   // CALZONES SALGADOS
@@ -927,7 +927,7 @@ export const products: Product[] = [
     description: "Calzone recheado com 4 queijos",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-mussarela",
@@ -935,7 +935,7 @@ export const products: Product[] = [
     description: "Calzone de mussarela",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-presunto",
@@ -943,15 +943,15 @@ export const products: Product[] = [
     description: "Calzone de presunto",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-carne-moida",
     name: "Calzone Carne Moída",
-    description: "Calzone de carne moída",
+    description: "Carne moida",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-frango",
@@ -959,7 +959,7 @@ export const products: Product[] = [
     description: "Calzone de frango",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-calabresa",
@@ -967,7 +967,7 @@ export const products: Product[] = [
     description: "Calzone de calabresa",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-picante",
@@ -975,7 +975,7 @@ export const products: Product[] = [
     description: "Calzone picante",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-moda-casa",
@@ -983,7 +983,7 @@ export const products: Product[] = [
     description: "Calzone especial da casa",
     price: 10,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-carne-sol",
@@ -991,7 +991,7 @@ export const products: Product[] = [
     description: "Calzone de carne de sol",
     price: 15,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-queijo-reino",
@@ -999,7 +999,7 @@ export const products: Product[] = [
     description: "Calzone de queijo do reino",
     price: 15,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-nordestina",
@@ -1007,7 +1007,7 @@ export const products: Product[] = [
     description: "Calzone nordestina",
     price: 15,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   {
     id: "calzone-camarao",
@@ -1015,7 +1015,7 @@ export const products: Product[] = [
     description: "Calzone de camarão",
     price: 15,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/calzone-fechado.jpg",
   },
   // CALZONES DOCES
   {
@@ -1024,7 +1024,7 @@ export const products: Product[] = [
     description: "Calzone de chocolate branco",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
   {
     id: "calzone-chocolate-preto",
@@ -1032,7 +1032,7 @@ export const products: Product[] = [
     description: "Calzone de chocolate preto",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
   {
     id: "calzone-bem-casado",
@@ -1040,7 +1040,7 @@ export const products: Product[] = [
     description: "Calzone bem casado",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
   {
     id: "calzone-romeu-julieta",
@@ -1048,7 +1048,7 @@ export const products: Product[] = [
     description: "Calzone romeu e julieta",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
   {
     id: "calzone-mm",
@@ -1056,7 +1056,7 @@ export const products: Product[] = [
     description: "Calzone de M&M's",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
   {
     id: "calzone-sensacao",
@@ -1064,7 +1064,7 @@ export const products: Product[] = [
     description: "Calzone sensação",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
   {
     id: "calzone-chocolate-especial",
@@ -1072,7 +1072,7 @@ export const products: Product[] = [
     description: "Calzone chocolate especial",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
   {
     id: "calzone-banana-nevada",
@@ -1080,7 +1080,7 @@ export const products: Product[] = [
     description: "Calzone banana nevada",
     price: 13,
     category: "calzones",
-    image: "/placeholder.svg",
+    image: "/assets/calzone/doce.webp",
   },
 
   // HAMBÚRGUERES TRADICIONAIS
@@ -1090,7 +1090,7 @@ export const products: Product[] = [
     description: "Pão bola, carne, ovo, presunto, mussarela e verduras",
     price: 8,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/tradicional.jpg",
   },
   {
     id: "hamburgao",
@@ -1099,7 +1099,7 @@ export const products: Product[] = [
       "Pão bola, carne, ovo, presunto, mussarela, cheddar, catupiry, batata palha e verduras",
     price: 10,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/tradicional.jpg",
   },
   {
     id: "x-calabresa",
@@ -1108,7 +1108,7 @@ export const products: Product[] = [
       "Pão bola, carne, ovo, presunto, mussarela, calabresa, cheddar, catupiry e verduras",
     price: 15,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/calabresa.png",
   },
   {
     id: "x-bacon",
@@ -1117,7 +1117,7 @@ export const products: Product[] = [
       "Pão bola, carne, ovo, presunto, mussarela, bacon, cheddar, catupiry e verduras",
     price: 15,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/bacon.jpg",
   },
   {
     id: "x-frango",
@@ -1126,7 +1126,7 @@ export const products: Product[] = [
       "Pão bola, carne, ovo, presunto, mussarela, frango, cheddar, catupiry e verduras",
     price: 15,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/fragon.webp",
   },
   {
     id: "da-casa",
@@ -1135,7 +1135,7 @@ export const products: Product[] = [
       "Pão bola, carne, ovo, presunto, mussarela, frango, bacon, calabresa, cheddar, catupiry, milho verde, ervilhas, batata palha e verduras",
     price: 18,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/tradicional.jpg",
   },
   {
     id: "x-tudo",
@@ -1144,7 +1144,7 @@ export const products: Product[] = [
       "Pão bola, carne, ovo, presunto, mussarela, frango, bacon, calabresa, salsicha, cheddar, catupiry, milho verde, ervilhas, batata palha e verduras",
     price: 20,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/xtudo.jpg",
   },
   {
     id: "x-tudao",
@@ -1153,7 +1153,7 @@ export const products: Product[] = [
       "Pão bola, 2 carnes, 2 ovos, presunto, mussarela, frango, bacon, calabresa, salsicha, cheddar, catupiry, milho verde, ervilhas, batata palha e verduras",
     price: 28,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/xtudao.jpg",
   },
   {
     id: "smash-burger",
@@ -1164,7 +1164,7 @@ export const products: Product[] = [
     promoPrice: 10,
     isPromo: true,
     category: "hamburgueres-tradicionais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/smash.jpg",
   },
 
   // HAMBÚRGUERES ARTESANAIS
@@ -1175,7 +1175,7 @@ export const products: Product[] = [
       "Pão bola, carne artesanal, presunto, mussarela, cheddar, catupiry e verduras",
     price: 10,
     category: "hamburgueres-artesanais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/artesanal.jpg",
   },
   {
     id: "burger-mania",
@@ -1184,7 +1184,7 @@ export const products: Product[] = [
       "Pão bola, carne artesanal, cheddar em fatia, cream cheese, mussarela, molho barbecue, cebola caramelizada e verduras",
     price: 18,
     category: "hamburgueres-artesanais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/artesanal.jpg",
   },
   {
     id: "x-barao",
@@ -1193,7 +1193,7 @@ export const products: Product[] = [
       "Pão bola, carne artesanal, queijo coalho, cebola caramelizada e verduras",
     price: 20,
     category: "hamburgueres-artesanais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/xbarao.jpg",
   },
   {
     id: "x-carne-sol",
@@ -1202,7 +1202,7 @@ export const products: Product[] = [
       "Pão bola, carne artesanal, carne de sol, cheddar, catupiry e verduras",
     price: 23,
     category: "hamburgueres-artesanais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/brasa.jpeg",
   },
   {
     id: "duplo-x",
@@ -1211,7 +1211,7 @@ export const products: Product[] = [
       "Pão bola, 2 carnes artesanais, cheddar em fatia, cream cheese, mussarela, molho barbecue e verduras",
     price: 25,
     category: "hamburgueres-artesanais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/artesabal2.jpg",
   },
   {
     id: "na-chapa-frango",
@@ -1220,7 +1220,7 @@ export const products: Product[] = [
       "Pão bola, salsicha, presunto, mussarela, frango, catupiry, cheddar, batata palha, milho verde, ervilhas e verduras",
     price: 12,
     category: "hamburgueres-artesanais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/fragon.webp",
   },
   {
     id: "na-chapa-misto",
@@ -1229,7 +1229,7 @@ export const products: Product[] = [
       "Pão bola, presunto, mussarela, frango, catupiry, cheddar, calabresa, bacon, batata palha, milho verde, ervilhas e verduras",
     price: 15,
     category: "hamburgueres-artesanais",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/xapa.jpeg",
   },
 
   // CACHORRO-QUENTE
@@ -1240,7 +1240,7 @@ export const products: Product[] = [
       "Pão bola, frango, salsicha, presunto, mussarela, cheddar, catupiry, batata palha, milho, ervilhas e verduras",
     price: 12,
     category: "cachorro-quente",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/cachorro.jpg",
   },
   {
     id: "cachorro-misto",
@@ -1249,7 +1249,7 @@ export const products: Product[] = [
       "Pão bola, frango, salsicha, presunto, mussarela, cheddar, catupiry, calabresa, bacon, batata palha, milho, ervilhas e verduras",
     price: 15,
     category: "cachorro-quente",
-    image: "/placeholder.svg",
+    image: "/assets/hamburguer/cachorro2.png",
   },
 
   // PRATOS / PARMEGIANA
@@ -1260,7 +1260,7 @@ export const products: Product[] = [
       "Filé de frango empanado, macarrão, mussarela, molho de parmegiana, batata frita",
     price: 20,
     category: "pratos",
-    image: "/placeholder.svg",
+    image: "/assets/prato/parmegiana-frango.jpg",
   },
   {
     id: "parmegiana-file-mignon",
@@ -1269,7 +1269,7 @@ export const products: Product[] = [
       "Filé mignon empanado, macarrão, mussarela, molho de parmegiana, batata palha",
     price: 25,
     category: "pratos",
-    image: "/placeholder.svg",
+    image: "/assets/prato/file.jpg",
   },
   {
     id: "parmegiana-camarao",
@@ -1278,7 +1278,7 @@ export const products: Product[] = [
       "Filé de camarão empanado, macarrão, mussarela, molho parmegiana, batata palha",
     price: 35,
     category: "pratos",
-    image: "/placeholder.svg",
+    image: "/assets/prato/parmegiana-camarao.jpg",
   },
   {
     id: "macarrao-bolonhesa",
@@ -1286,7 +1286,7 @@ export const products: Product[] = [
     description: "Macarrão com molho bolonhesa",
     price: 20,
     category: "pratos",
-    image: "/placeholder.svg",
+    image: "/assets/prato/macarrao-bolon.jpeg",
   },
   {
     id: "batata-frita-m",
@@ -1294,7 +1294,7 @@ export const products: Product[] = [
     description: "Porção média de batata frita",
     price: 10,
     category: "pratos",
-    image: "/placeholder.svg",
+    image: "/assets/prato/batata.jpeg",
   },
   {
     id: "batata-frita-g",
@@ -1302,7 +1302,7 @@ export const products: Product[] = [
     description: "Porção grande de batata frita",
     price: 18,
     category: "pratos",
-    image: "/placeholder.svg",
+    image: "/assets/prato/batata.jpeg",
   },
 
   // SOBREMESAS
@@ -1312,7 +1312,7 @@ export const products: Product[] = [
     description: "Delicioso bolo no pote de maracujá",
     price: 8,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/bolo.jpeg",
   },
   {
     id: "bolo-limao",
@@ -1320,7 +1320,7 @@ export const products: Product[] = [
     description: "Delicioso bolo no pote de limão",
     price: 8,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/bolo.jpeg",
   },
   {
     id: "bolo-morango",
@@ -1328,7 +1328,7 @@ export const products: Product[] = [
     description: "Delicioso bolo no pote de morango",
     price: 8,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/bolo.jpeg",
   },
   {
     id: "bolo-bem-casado",
@@ -1336,7 +1336,7 @@ export const products: Product[] = [
     description: "Delicioso bolo no pote bem casado",
     price: 8,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/bolo.jpeg",
   },
   {
     id: "bolo-prestigio",
@@ -1344,7 +1344,7 @@ export const products: Product[] = [
     description: "Delicioso bolo no pote prestígio",
     price: 8,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/bolo.jpeg",
   },
   {
     id: "bolo-oreo",
@@ -1352,7 +1352,7 @@ export const products: Product[] = [
     description: "Delicioso bolo no pote oreo",
     price: 8,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/bolo.jpeg",
   },
   {
     id: "cone-oreo",
@@ -1360,7 +1360,7 @@ export const products: Product[] = [
     description: "Cone trufado sabor oreo",
     price: 7,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/cone-trufado.jpg",
   },
   {
     id: "cone-prestigio",
@@ -1368,7 +1368,7 @@ export const products: Product[] = [
     description: "Cone trufado sabor prestígio",
     price: 7,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/cone-trufado.jpg",
   },
   {
     id: "cone-ninho-nutella",
@@ -1376,7 +1376,7 @@ export const products: Product[] = [
     description: "Cone trufado ninho com nutella",
     price: 7,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/cone-trufado.jpg",
   },
   {
     id: "cone-brigadeiro",
@@ -1384,7 +1384,7 @@ export const products: Product[] = [
     description: "Cone trufado sabor brigadeiro",
     price: 7,
     category: "sobremesas",
-    image: "/placeholder.svg",
+    image: "/assets/sobremesa/cone-trufado.jpg",
   },
 
   // BEBIDAS
@@ -1394,7 +1394,7 @@ export const products: Product[] = [
     description: "Refrigerante 2L (Coca-Cola, Guaraná, Fanta)",
     price: 15,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/coca2l.png",
   },
   {
     id: "refri-1l",
@@ -1402,7 +1402,7 @@ export const products: Product[] = [
     description: "Refrigerante 1L (Coca-Cola, Guaraná, Fanta)",
     price: 10,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/coca2l.png",
   },
   {
     id: "refri-lata",
@@ -1410,7 +1410,7 @@ export const products: Product[] = [
     description: "Refrigerante lata 350ml",
     price: 7,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/refri-lata.jpg",
   },
   {
     id: "agua-1-5l",
@@ -1418,7 +1418,7 @@ export const products: Product[] = [
     description: "Água mineral sem gás 1,5L",
     price: 6,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/agua.webp",
   },
   {
     id: "agua-500ml",
@@ -1426,7 +1426,7 @@ export const products: Product[] = [
     description: "Água mineral sem gás 500ml",
     price: 3,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/agua500.webp",
   },
   {
     id: "agua-gas-500ml",
@@ -1434,7 +1434,7 @@ export const products: Product[] = [
     description: "Água mineral com gás 500ml",
     price: 5,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/agua-gas.webp",
   },
   {
     id: "agua-tonica",
@@ -1442,23 +1442,15 @@ export const products: Product[] = [
     description: "Água tônica lata",
     price: 6,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/tonica.webp",
   },
   {
     id: "h2o",
     name: "H2O",
-    description: "H2O",
-    price: 5,
-    category: "bebidas",
-    image: "/placeholder.svg",
-  },
-  {
-    id: "limoneto",
-    name: "Limoneto",
     description: "Limoneto",
     price: 5,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/h2o.jpg",
   },
   {
     id: "suco-jarro-leite",
@@ -1466,7 +1458,7 @@ export const products: Product[] = [
     description: "Suco natural jarro 750ml com leite",
     price: 15,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/sucos.jpg",
   },
   {
     id: "suco-jarro-agua",
@@ -1474,7 +1466,7 @@ export const products: Product[] = [
     description: "Suco natural jarro 750ml com água",
     price: 12,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/sucos.jpg",
   },
   {
     id: "suco-copo-leite",
@@ -1482,7 +1474,7 @@ export const products: Product[] = [
     description: "Suco natural copo 400ml com leite",
     price: 6,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/sucos.jpg",
   },
   {
     id: "suco-copo-agua",
@@ -1490,7 +1482,7 @@ export const products: Product[] = [
     description: "Suco natural copo 400ml com água",
     price: 5,
     category: "bebidas",
-    image: "/placeholder.svg",
+    image: "/assets/bebidas/sucos.jpg",
   },
 ];
 
@@ -1505,8 +1497,8 @@ export const businessHours = {
 };
 
 export const contactInfo = {
-  phone: "(81) 99876-3262",
-  whatsapp: "5581998763262",
+  phone: "(81) 997615125",
+  whatsapp: "5581997615125",
   instagram: "https://www.instagram.com/hamburgueriaepizzariadoleo/",
   address: "Rua Example, 123 - Bairro",
 };
