@@ -1,16 +1,18 @@
-import { useNavigate } from 'react-router-dom';
-import { ChevronRight, Clock, MapPin, Star } from 'lucide-react';
-import { StoreStatus, ClosedBanner } from '@/components/StoreStatus';
-import { MondayPromo } from '@/components/MondayPromo';
-import { businessHours, products } from '@/data/menuData';
-import { ProductCard } from '@/components/ProductCard';
+import { useNavigate } from "react-router-dom";
+import { ChevronRight, Clock, MapPin, Star, Truck, Info } from "lucide-react";
+import { StoreStatus, ClosedBanner } from "@/components/StoreStatus";
+import { MondayPromo } from "@/components/MondayPromo";
+import { businessHours, products } from "@/data/menuData";
+import { ProductCard } from "@/components/ProductCard";
 
 export default function Index() {
   const navigate = useNavigate();
-  
+
   // Featured products
-  const featuredProducts = products.filter(p => 
-    ['pizza-4-queijos', 'x-bacon', 'pizza-chocolate-preto', 'da-casa'].includes(p.id)
+  const featuredProducts = products.filter((p) =>
+    ["pizza-4-queijos", "x-bacon", "pizza-chocolate-preto", "da-casa"].includes(
+      p.id
+    )
   );
 
   return (
@@ -20,7 +22,7 @@ export default function Index() {
         {/* Background */}
         <div className="absolute inset-0 gradient-mesh" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
-        
+
         {/* Content */}
         <div className="relative container mx-auto px-4 pt-8 pb-12">
           <div className="flex flex-col items-center text-center">
@@ -39,13 +41,14 @@ export default function Index() {
             <StoreStatus />
 
             <p className="text-muted-foreground mt-4 max-w-md">
-              As melhores pizzas e hambúrgueres da região, feitos com ingredientes selecionados e muito amor!
+              As melhores pizzas e hambúrgueres da região, feitos com
+              ingredientes selecionados e muito amor!
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full max-w-md">
               <button
-                onClick={() => navigate('/cardapio')}
+                onClick={() => navigate("/cardapio")}
                 className="btn-primary flex-1 flex items-center justify-center gap-2 text-lg"
               >
                 Ver Cardápio
@@ -65,7 +68,8 @@ export default function Index() {
         <MondayPromo />
 
         {/* Quick Info Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+          {/* Horário Card */}
           <div className="bg-card border border-border rounded-2xl p-4 flex items-center gap-4">
             <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center">
               <Clock className="w-6 h-6 text-primary" />
@@ -76,16 +80,37 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="bg-card border border-border rounded-2xl p-4 flex items-center gap-4">
+          {/* Entrega Card - ATUALIZADO */}
+          <div className="bg-card border border-border rounded-2xl p-4 flex items-center gap-4 relative">
             <div className="w-12 h-12 rounded-xl bg-secondary/20 flex items-center justify-center">
-              <MapPin className="w-6 h-6 text-secondary" />
+              <div className="relative">
+                <Truck className="w-6 h-6 text-secondary" />
+                <MapPin className="w-3 h-3 text-white absolute -top-1 -right-1" />
+              </div>
             </div>
             <div>
-              <h3 className="font-semibold text-foreground">Entrega</h3>
-              <p className="text-sm text-muted-foreground">+ R$ 2,00</p>
+              <h3 className="font-semibold text-foreground flex items-center gap-1">
+                Entrega
+                <span className="text-xs text-muted-foreground font-normal">
+                  <div className="relative group">
+                    <Info className="w-3 h-3 cursor-help" />
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-48 p-2 bg-popover text-popover-foreground text-xs rounded-lg shadow-lg border opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10">
+                      <p>
+                        Taxa base R$ 2,00. Valor pode variar conforme distância
+                        do local.
+                      </p>
+                    </div>
+                  </div>
+                </span>
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Taxa base:{" "}
+                <span className="font-semibold text-secondary">R$ 2,00</span>
+              </p>
             </div>
           </div>
 
+          {/* Qualidade Card */}
           <div className="bg-card border border-border rounded-2xl p-4 flex items-center gap-4">
             <div className="w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center">
               <Star className="w-6 h-6 text-green-500" />
@@ -93,6 +118,38 @@ export default function Index() {
             <div>
               <h3 className="font-semibold text-foreground">Qualidade</h3>
               <p className="text-sm text-muted-foreground">5 estrelas</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Observação sobre Entrega */}
+        <div className="mb-6 p-3 bg-blue-50 border border-blue-200 rounded-xl">
+          <div className="flex items-start gap-3">
+            <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+              <svg
+                className="w-4 h-4 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <div>
+              <p className="text-sm text-blue-800 font-medium mb-1">
+                Informação sobre entregas
+              </p>
+              <p className="text-xs text-blue-600">
+                A taxa de entrega tem valor base de{" "}
+                <span className="font-semibold">R$ 2,00</span>. Para locais mais
+                distantes, o valor pode ser ajustado conforme a distância. O
+                valor final será confirmado durante o pedido via WhatsApp.
+              </p>
             </div>
           </div>
         </div>
@@ -109,13 +166,13 @@ export default function Index() {
                 key={index}
                 className={`p-3 rounded-xl text-center ${
                   hours.isOpen
-                    ? 'bg-muted'
-                    : 'bg-destructive/10 text-destructive'
+                    ? "bg-muted"
+                    : "bg-destructive/10 text-destructive"
                 }`}
               >
                 <p className="font-semibold text-sm">{hours.day}</p>
                 <p className="text-xs text-muted-foreground">
-                  {hours.isOpen ? `${hours.open} - ${hours.close}` : 'Fechado'}
+                  {hours.isOpen ? `${hours.open} - ${hours.close}` : "Fechado"}
                 </p>
               </div>
             ))}
@@ -127,7 +184,7 @@ export default function Index() {
           <div className="flex items-center justify-between mb-4">
             <h3 className="font-bold text-xl text-foreground">Destaques</h3>
             <button
-              onClick={() => navigate('/cardapio')}
+              onClick={() => navigate("/cardapio")}
               className="text-primary font-medium flex items-center gap-1 hover:underline"
             >
               Ver tudo
